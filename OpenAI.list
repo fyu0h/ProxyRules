@@ -1,39 +1,38 @@
 # NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
+# AUTHOR: - - DOMAI
+# REPO: https://github.com/- - DOMAI/ios_rule_script
 # UPDATED: 2024-02-25 16:06:04
-# DOMAIN: 2
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 23
+# DOMAI: 2
+# DOMAI-KEYWORD: 1
+# DOMAI-SUFFIX: 23
 # IP-CIDR: 2
 # TOTAL: 28
 payload:
-  - DOMAIN,steammobile.akamaized.net
-  DOMAIN,browser-intake-datadoghq.com
-  DOMAIN,static.cloudflareinsights.com
-  DOMAIN-SUFFIX,ai.com
-  DOMAIN-SUFFIX,algolia.net
-  DOMAIN-SUFFIX,api.statsig.com
-  DOMAIN-SUFFIX,auth0.com
-  DOMAIN-SUFFIX,cdn.cloudflare.net
-  DOMAIN-SUFFIX,challenges.cloudflare.com
-  DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  DOMAIN-SUFFIX,client-api.arkoselabs.com
-  DOMAIN-SUFFIX,events.statsigapi.net
-  DOMAIN-SUFFIX,featuregates.org
-  DOMAIN-SUFFIX,host.livekit.cloud
-  DOMAIN-SUFFIX,identrust.com
-  DOMAIN-SUFFIX,intercom.io
-  DOMAIN-SUFFIX,intercomcdn.com
-  DOMAIN-SUFFIX,launchdarkly.com
-  DOMAIN-SUFFIX,oaistatic.com
-  DOMAIN-SUFFIX,oaiusercontent.com
-  DOMAIN-SUFFIX,observeit.net
-  DOMAIN-SUFFIX,poe.com
-  DOMAIN-SUFFIX,segment.io
-  DOMAIN-SUFFIX,sentry.io
-  DOMAIN-SUFFIX,stripe.com
-  DOMAIN-SUFFIX,turn.livekit.cloud
-  DOMAIN-KEYWORD,openai
+  - DOMAI,browser-intake-datadoghq.com
+  - DOMAI,static.cloudflareinsights.com
+  - DOMAI-SUFFIX,ai.com
+  - DOMAI-SUFFIX,algolia.net
+  - DOMAI-SUFFIX,api.statsig.com
+  - DOMAI-SUFFIX,auth0.com
+  - DOMAI-SUFFIX,cdn.cloudflare.net
+  - DOMAI-SUFFIX,challenges.cloudflare.com
+  - DOMAI-SUFFIX,chatgpt.livekit.cloud
+  - DOMAI-SUFFIX,client-api.arkoselabs.com
+  - DOMAI-SUFFIX,events.statsigapi.net
+  - DOMAI-SUFFIX,featuregates.org
+  - DOMAI-SUFFIX,host.livekit.cloud
+  - DOMAI-SUFFIX,identrust.com
+  - DOMAI-SUFFIX,intercom.io
+  - DOMAI-SUFFIX,intercomcdn.com
+  - DOMAI-SUFFIX,launchdarkly.com
+  - DOMAI-SUFFIX,oaistatic.com
+  - DOMAI-SUFFIX,oaiusercontent.com
+  - DOMAI-SUFFIX,observeit.net
+  - DOMAI-SUFFIX,poe.com
+  - DOMAI-SUFFIX,segment.io
+  - DOMAI-SUFFIX,sentry.io
+  - DOMAI-SUFFIX,stripe.com
+  - DOMAI-SUFFIX,turn.livekit.cloud
+  - DOMAI-KEYWORD,openai
   IP-CIDR,24.199.123.28/32,no-resolve
   IP-CIDR,64.23.132.171/32,no-resolve
